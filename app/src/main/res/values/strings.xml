@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">DownloadImage</string>
+    <string name="permissions_dialog_explain">App need storage permission to store images. Enable permissions?</string>
+    <string name="permissions_dialog_title">Alert</string>
+    <string name="permissions_dialog_ok">OK</string>
+    <string name="permissions_dialog_cancel">Cancel</string>
+    <string name="progress_text">%03d kb downloading</string>
+    <string name="error">Error during fetching dtaa</string>
+    <string name="loading">Loading..</string>
+    <string name="temp_folder">download_images_temp</string>
+    <string name="per_folder">download_images</string>
+</resources>
