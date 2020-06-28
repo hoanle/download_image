@@ -16,6 +16,7 @@ The project is to allow user to see a list of images from a movie
   + Image is displayed, next time it should appear immediately 
   + Big file is re-sampled to avoid overflow. The resampling can be done **right after download and save as resampled file**, 
   but this will lose original information so i decided to resample **when the app uses it**, so decoding can be slow. 
+  + If local storage is out of space, downloading will fall to failed status
   - Two images folder are used to make sure files are downloaded successfully. First download use temp folder, it copies downloaded file to
   per folder later, and delete the file in temp folder. 
   - RxJava is used to handle thread for heavy task (downloading, decoding...) and some reporting events
